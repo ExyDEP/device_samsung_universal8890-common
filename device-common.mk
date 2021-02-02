@@ -111,10 +111,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     dtbhtoolExynos
 
-# FastCharge
-PRODUCT_PACKAGES += \
-    FastCharge
-
 # Filesystem tools for resizing system partitions
 PRODUCT_PACKAGES += \
     e2fsck_static \
@@ -123,10 +119,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.samsung
-
-# FlickerFree
-PRODUCT_PACKAGES += \
-    FlickerFree
 
 # FlipFlap
 PRODUCT_PACKAGES += \
