@@ -29,10 +29,6 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-# AdvancedDisplay (MDNIE)
-PRODUCT_PACKAGES += \
-    AdvancedDisplay 
-
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
@@ -103,10 +99,6 @@ PRODUCT_PACKAGES += \
 # DTB tool    
 PRODUCT_HOST_PACKAGES += \
     dtbhtoolExynos
-
-# FastCharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.samsung
 
 # Filesystem tools for resizing system partitions
 PRODUCT_PACKAGES += \
@@ -334,14 +326,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
-
-# Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
